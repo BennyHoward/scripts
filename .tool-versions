@@ -1,0 +1,28 @@
+# $HOME/.tool-versions
+
+R 3.6.3
+clojure 1.10.1
+crystal 0.35.0
+dart 2.8.4
+deno 1.1.0
+dotnet-core 3.1.301
+elixir 1.10.3-otp-23
+erlang 23.0.2
+flutter 1.17.3-stable
+golang 1.14.4
+gradle 3.5
+haskell 8.10.1
+java azul-zulu-8.46.0.19-jdk8.0.252
+julia 1.4.2
+kotlin 1.3.50
+maven 3.6.3
+nim 1.2.2
+nodejs 12.18.0
+ocaml 4.10.0
+php 7.4.7
+python 3.8.3 2.7.18
+racket 7.7
+ruby 2.7.1
+rust 1.44.0
+scala 2.5.0.final
+swiprolog 8.2.0
