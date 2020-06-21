@@ -1,3 +1,3 @@
-# /bin/usr/env sh
+#!/usr/bin/env sh
 
 echo 'Hello World!'
