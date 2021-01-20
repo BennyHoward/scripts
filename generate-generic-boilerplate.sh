@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-WORKING_URL='https://github.com/BennyHoward/scripts/blob/master/generic-boilerplate-project-files'
+WORKING_URL='https://raw.githubusercontent.com/BennyHoward/scripts/master/generic-boilerplate-project-files'
 
 FILES_TO_DOWNLOAD=(.editorconfig .gitconfig .markdownlint.json LICENSE README.md)
 
