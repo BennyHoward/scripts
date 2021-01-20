@@ -1,1 +1,2 @@
 ☐ Make the PowerShell verions of generate-generic-boilerplate.sh
+☐ Add a script to initialize the repository and take the git user (uses `$(git config user.name)` as default) and git repo name (uses current folder `${PWD##*/}` as default) as inputs or as options (`-r`, `--repo-name` and `-u`, `--username`)
