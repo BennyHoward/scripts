@@ -9,7 +9,7 @@ FILES_TO_CREATE=(.tool-verions Tasks.todo)
 # Download pre-built files
 for FILE in ${FILES_TO_DOWNLOAD[@]}; do
   echo "Downloading '$WORKING_URL/$FILE'..."
-  curl --silent "$WORKING_URL/$FILE" --output "$FILE"
+  curl --silent --location "$WORKING_URL/$FILE" --output "$FILE"
 
   # Print action items for certain files
   if [[ "$FILE" == 'LICENSE' ]]; then
