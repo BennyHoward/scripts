@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-WORKING_URL='https://raw.githubusercontent.com/BennyHoward/scripts/master'
+WORKING_URL='https://raw.githubusercontent.com/BennyHoward/scripts/master/'
 
 FILES_TO_DOWNLOAD=(.editorconfig .gitconfig .markdownlint.json LICENSE README.md)
 
@@ -8,8 +8,8 @@ FILES_TO_CREATE=(.tool-verions Tasks.todo)
 
 # Download pre-built files
 for FILE in ${FILES_TO_DOWNLOAD[@]}; do
-  echo "Downloading '$WORKING_URL/$FILE'..."
-  curl --silent "$WORKING_URL/$FILE" --output "$FILE"
+  echo "Downloading '$WORKING_URL/generic-boilerplate-project-files/$FILE'..."
+  curl --silent "$WORKING_URL/generic-boilerplate-project-files/$FILE" --output "$FILE"
 
   # Print action items for certain files
   if [[ "$FILE" == 'LICENSE' ]]; then
