@@ -25,3 +25,11 @@ or
 Invoke-RestMethod https://raw.githubusercontent.com/BennyHoward/scripts/master/helloworld.ps1 | PowerShell.exe
 # => Hello World!
 ```
+
+## Usage
+
+### Generic Project Boilerplate
+
+```sh
+curl --silent https://raw.githubusercontent.com/BennyHoward/scripts/master/generate-generic-boilerplate.sh | sh
+```
